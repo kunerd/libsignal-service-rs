@@ -1,4 +1,5 @@
 #![recursion_limit = "256"]
+#![feature(const_if_match)]
 
 mod account_manager;
 pub mod attachment_cipher;
