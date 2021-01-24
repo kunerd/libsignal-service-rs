@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 libsignal-service = { path = "../libsignal-service" }
-libsignal-protocol = { git = "https://github.com/Michael-F-Bryan/libsignal-protocol-rs" }
+libsignal-protocol = { git = "https://github.com/kunerd/libsignal-protocol-rs", branch = "enable_feature_const_if_match" }
 
 awc = { version = "3.0.0-beta.1", features=["rustls"] }
 actix = "0.11.0-beta.1"
